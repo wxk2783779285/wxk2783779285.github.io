@@ -15,26 +15,26 @@
     --color-mode: 'dark';
   }
   :root:not([color-mode]) {
-    --color-background: #1e2128;
-    --color-background-secondary: #1a1d22;
+    --color-background: #00bfff;
+    --color-background-secondary: #00bfff;
     --color-background-rgb: 30, 33, 40;
     --color-text: #ddd;
-    --color-text-secondary: #9899ab;
-    --color-text-third: #7d8594;
-    --color-border: #2b3038;
+    --color-text-secondary: #00bfff;
+    --color-text-third: #00bfff;
+    --color-border: #00bfff;
     --background-image: url("/images/theme/welcome-image.jpg");
     --loading-image: url("/images/theme/loading.gif");
     --lazyload-image: url("/images/theme/loading.gif");
   }
 }
 [color-mode='dark'] {
-  --color-background: #1e2128;
-  --color-background-secondary: #1a1d22;
+  --color-background: #00bfff;
+  --color-background-secondary: #00bfff;
   --color-background-rgb: 30, 33, 40;
   --color-text: #ddd;
-  --color-text-secondary: #9899ab;
-  --color-text-third: #7d8594;
-  --color-border: #2b3038;
+  --color-text-secondary: #00bfff;
+  --color-text-third: #00bfff;
+  --color-border: #00bfff;
   --background-image: url("/images/theme/welcome-image.jpg");
   --loading-image: url("/images/theme/loading.gif");
   --lazyload-image: url("/images/theme/loading.gif");
