@@ -1,6 +1,6 @@
 :root {
-  --color-background: #00bfff;
-  --color-background-secondary: #00bfff;
+  --color-background: #fff;
+  --color-background-secondary: #f6f8fa;
   --color-background-rgb: 255, 255, 255;
   --color-text: #33333d;
   --color-text-secondary: #4e4e4e;
@@ -15,26 +15,26 @@
     --color-mode: 'dark';
   }
   :root:not([color-mode]) {
-    --color-background: #00bfff;
-    --color-background-secondary: #00bfff;
+    --color-background: #1e2128;
+    --color-background-secondary: #1a1d22;
     --color-background-rgb: 30, 33, 40;
     --color-text: #ddd;
-    --color-text-secondary: #00bfff;
-    --color-text-third: #00bfff;
-    --color-border: #00bfff;
+    --color-text-secondary: #9899ab;
+    --color-text-third: #7d8594;
+    --color-border: #2b3038;
     --background-image: url("/images/theme/welcome-image.jpg");
     --loading-image: url("/images/theme/loading.gif");
     --lazyload-image: url("/images/theme/loading.gif");
   }
 }
 [color-mode='dark'] {
-  --color-background: #00bfff;
-  --color-background-secondary: #00bfff;
+  --color-background: #1e2128;
+  --color-background-secondary: #1a1d22;
   --color-background-rgb: 30, 33, 40;
   --color-text: #ddd;
-  --color-text-secondary: #00bfff;
-  --color-text-third: #00bfff;
-  --color-border: #00bfff;
+  --color-text-secondary: #9899ab;
+  --color-text-third: #7d8594;
+  --color-border: #2b3038;
   --background-image: url("/images/theme/welcome-image.jpg");
   --loading-image: url("/images/theme/loading.gif");
   --lazyload-image: url("/images/theme/loading.gif");
@@ -863,7 +863,7 @@ body input {
 @media (hover: hover) and (pointer: fine) {
   .fab:hover {
     background-color: #00bfff;
-    background-image: linear-gradient(-60deg, #00bfff 0%, #f09819 100%);
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
     cursor: pointer;
   }
 }
@@ -1429,7 +1429,7 @@ body input {
   left: -28px;
   width: 100px;
   background-color: #00bfff;
-  background-image: linear-gradient(-60deg, #00bfff 0%, #f09819 100%);
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
   color: #fff;
   box-shadow: -3px 5px 6px -5px rgba(0,0,0,0.5);
 }
@@ -1788,7 +1788,7 @@ body input {
 }
 .article .wrap .main .comments .btn:hover {
   background-color: #00bfff;
-  background-image: linear-gradient(-60deg, #00bfff 0%, #f09819 100%);
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
   color: #fff;
   transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
   cursor: pointer;
